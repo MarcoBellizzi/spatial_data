@@ -45,6 +45,12 @@ The two primary types of spatial data are **vector** and **raster** data.
 It aims at monitoring variability in land surface conditions, and its wide swath width (290 km) and high revisit time (10 days at the equator with one satellite, and 5 days with 2 satellites under cloud-free conditions which results in 2-3 days at mid-latitudes) will support monitoring of Earth's surface changes.
 Users can use APIs to retrieve satellite data through [Sentinel Hub](https://docs.sentinel-hub.com/api/latest/), that offers a [Python package](https://sentinelhub-py.readthedocs.io/en/latest/index.html) to interact with. 
 
+## Models
+
+- [UNet](https://towardsdatascience.com/unet-line-by-line-explanation-9b191c76baf5) - Unet is a fully convolutional neural network (FCN) architecture built for image segmentation applications. UNet is able to do image localisation by predicting the image pixel by pixel
+
+- [timm](https://huggingface.co/docs/timm/index) - timm is a library containing SOTA computer vision models, layers, utilities, optimizers, schedulers, data-loaders, augmentations, and training/evaluation scripts. It comes packaged with >700 pretrained models, and is designed to be flexible and easy to use.
+
 ## Tools 
 
 - [QGIS](https://www.qgis.org/it/site/index.html)
