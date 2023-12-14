@@ -31,7 +31,7 @@ The two primary types of spatial data are **vector** and **raster** data.
 
 - **Raster data** is made up of pixels (also referred to as grid cells). They are usually regularly spaced and square but they don’t have to be. Rasters often look pixelated because each pixel has its own value or class. 
 
-    Here there are some raster data format: 
+    Here there are some raster data formats:
 
     - [GeoTIFF](https://en.wikipedia.org/wiki/GeoTIFF) 
 
