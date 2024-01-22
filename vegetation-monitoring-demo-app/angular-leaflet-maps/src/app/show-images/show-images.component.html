@@ -1,0 +1,33 @@
+<mat-grid-list cols="4">
+    <mat-grid-tile></mat-grid-tile>
+    <mat-grid-tile>
+        <img [src]="path_color" style="width: 90%;">
+    </mat-grid-tile>
+    <mat-grid-tile>
+        <img [src]="path_tree" style="width: 90%;">
+    </mat-grid-tile>
+    <mat-grid-tile></mat-grid-tile>
+
+    <mat-grid-tile>
+        <img [src]="path_color_area" style="width: 90%;">
+    </mat-grid-tile>
+    <mat-grid-tile>
+        <img [src]="path_color_sr_area" style="width: 90%;">
+    </mat-grid-tile>
+    <mat-grid-tile>
+        <img [src]="path_tree_area" style="width: 90%;">
+    </mat-grid-tile>
+    <mat-grid-tile>
+        <img [src]="path_tree_sr_area" style="width: 90%;">
+    </mat-grid-tile>
+
+    <mat-grid-tile></mat-grid-tile>
+    <mat-grid-tile>
+        <img [src]="path_color_alert" style="width: 90%;">
+    </mat-grid-tile>
+    <mat-grid-tile>
+        <img [src]="path_color_sr_area_alert" style="width: 90%;">
+    </mat-grid-tile>
+</mat-grid-list>
+
+<button (click)="goMap()">Return</button>
